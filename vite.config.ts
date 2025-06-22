@@ -10,4 +10,5 @@ export default defineConfig({
   define: {
     global: 'window',  // 필요 시 추가
   },
+  base: '/Ssal-Ssal-Ssal/',
 });

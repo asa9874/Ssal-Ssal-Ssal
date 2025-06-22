@@ -23,7 +23,7 @@ const RiceSchedule: React.FC = () => {
   const [schedule, setSchedule] = useState<Record<string, (null | { label: string; color: string })[]>>({
     [getDateString(today)]: Array(24).fill(null)
   });
-  const [selectedHour, setSelectedHour] = useState<number | null>(null);
+  const [selectedHour] = useState<number | null>(null);
 
   // 태스크 추가용 상태
   const [newTaskLabel, setNewTaskLabel] = useState("");
